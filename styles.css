@@ -7,14 +7,18 @@
 }
 
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
+  padding-top: 130px;
+  padding-left: 64px;
+  padding-right: 64px;;
+
 }
 
 h1 {
@@ -23,6 +27,11 @@ h1 {
 
 .emergency-header {
   background-color: var(--black);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+  left: 0;
 }
 
 h3 {
@@ -34,6 +43,54 @@ h3 {
   color: var(--white);
 }
 
-.logo {
-  background-image: url(images/oabi-logo.png);
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 64px;
+  height: 81px;
+  background-color: var(--white);
+  top: 36px;
+  left: 0;
+  position: fixed !important;
+  z-index: 1000;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+
+#navlist {
+  position: relative;
+  padding: 0em;
+}
+
+#navlist li {
+  padding: 0;
+  list-style: none;
+  top: 0;
+}
+
+#navlist li, #navlist a {
+  height: 31px;
+  display: block;
+}
+
+
+#logo {
+  left: 0px;
+  width: 90px;
+  background: url('images/oabi-logo.png') 0 0;
+  padding-top: 25px;
+  background-size: 100%;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+
+}
+
+.body {
+  padding-top: 116.45px;
+  padding-left: 64px;
+  padding-right: 64px;
 }
