@@ -1,43 +1,75 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Montserrat:wght@300;400;700&display=swap');
 
 :root {
-  --purple: AF54D0;
+  --purple: #AF54D0;
+  --white: #fdfdfd;
+  --black: #333333;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
+  padding-top: 130px;
+  padding-left: 64px;
+  padding-right: 64px;
 }
 
 h1 {
   font-family: 'Arvo', serif;
 }
 
-fieldset {
-  align-items: left;
-  background-color: #FDFDFD;
-  text-decoration-color: #333333;
-  border-color: #AF54D0;
- border-style: solid;
- margin-top: 24px;
- margin-left: 64px;
- margin-right: 64px;
- font-family: Montserrat;
+.emergency-header {
+  background-color: var(--black);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+  left: 0;
 }
 
-legend {
-  font-family: Arvo;
-  color:#AF54D0;
+h3 {
+  font-size: 18px;
   font-weight: bold;
-  font-size: 15px;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: var(--white);
 }
 
-#contribution {
-  border: 2px solid #AF54D0;
-  padding: 15px;}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 64px;
+  height: 81px;
+  background-color: var(--white);
+  top: 36px;
+  left: 0;
+  position: fixed !important;
+  z-index: 1000;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
 
-#navlist li, #navlist a { 
+
+#navlist {
+  position: relative;
+  padding: 0em;
+}
+
+#navlist li {
+  padding: 0;
+  list-style: none;
+  top: 0;
+}
+
+#navlist li, #navlist a {
   height: 31px;
   display: block;
 }
@@ -75,6 +107,18 @@ legend {
   legend {
     font-family: Arvo;
     color:#AF54D0;
+  fieldset {
+    align-items: left;
+    background-color: var(--white);
+    text-decoration-color: #333333;
+    border-color: var(--purple);
+   border-style: solid;
+   z-index: -1;
+  }
+
+  legend {
+    font-family: 'Arvo', serif;
+    color:var(--purple);
     font-weight: bold;
     font-size: 15px;
   }
