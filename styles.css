@@ -33,7 +33,7 @@ h1 {
   left: 0;
 }
 
-h3 {
+.emergency-header h3 {
   font-size: 18px;
   font-weight: bold;
   text-align: center;
