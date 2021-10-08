@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Montserrat:wght@300;400;700&display=swap');
 
 :root {
-  --purple: AF54D0;
+  --purple: #AF54D0;
+  --white: #fdfdfd;
+  --black: #333333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -11,4 +19,21 @@ body {
 
 h1 {
   font-family: 'Arvo', serif;
+}
+
+.emergency-header {
+  background-color: var(--black);
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: var(--white);
+}
+
+.logo {
+  background-image: url(images/oabi-logo.png);
 }
