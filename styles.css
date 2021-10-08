@@ -17,8 +17,7 @@ body {
   font-size: 18px;
   padding-top: 130px;
   padding-left: 64px;
-  padding-right: 64px;;
-
+  padding-right: 64px;
 }
 
 h1 {
@@ -93,4 +92,27 @@ h3 {
   padding-top: 116.45px;
   padding-left: 64px;
   padding-right: 64px;
+
+  fieldset {
+    align-items: left;
+    background-color: #FDFDFD;
+    text-decoration-color: #333333;
+    border-color: #AF54D0;
+   border-style: solid;
+   margin-top: 24px;
+   margin-left: 64px;
+   margin-right: 64px;
+   font-family: Montserrat;
+  }
+
+  legend {
+    font-family: Arvo;
+    color:#AF54D0;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  #contribution {
+    border: 2px solid #AF54D0;
+    padding: 15px;
 }
