@@ -15,7 +15,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
-  padding-top: 140px;
+  padding-top: 200px;
   padding-left: 64px;
   padding-right: 64px;
 }
@@ -86,15 +86,11 @@ h3 {
 }
 
   fieldset {
-    position: absolute;
     align-items: left;
     background-color: var(--white);
     text-decoration-color: #333333;
     border-color: var(--purple);
    border-style: solid;
-   margin-top: 24px;
-   margin-left: 64px;
-   margin-right: 64px;
    z-index: -1;
   }
 
