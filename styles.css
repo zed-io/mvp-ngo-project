@@ -15,7 +15,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
-  padding-top: 130px;
+  padding-top: 140px;
   padding-left: 64px;
   padding-right: 64px;
 }
@@ -85,29 +85,22 @@ h3 {
   transition: 0.2s ease;
 }
 
-
-}
-
-.body {
-  padding-top: 116.45px;
-  padding-left: 64px;
-  padding-right: 64px;
-
   fieldset {
+    position: absolute;
     align-items: left;
-    background-color: #FDFDFD;
+    background-color: var(--white);
     text-decoration-color: #333333;
-    border-color: #AF54D0;
+    border-color: var(--purple);
    border-style: solid;
    margin-top: 24px;
    margin-left: 64px;
    margin-right: 64px;
-   font-family: Montserrat;
+   z-index: -1;
   }
 
   legend {
-    font-family: Arvo;
-    color:#AF54D0;
+    font-family: 'Arvo', serif;
+    color:var(--purple);
     font-weight: bold;
     font-size: 15px;
   }
