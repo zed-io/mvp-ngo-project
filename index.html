@@ -5,59 +5,63 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>A Basic HTML5 Template</title>
+  <title>OABITT</title>
   <meta name="description" content="A simple HTML5 Template for new projects.">
   <meta name="author" content="SitePoint">
 
-  <meta property="og:title" content="A Basic HTML5 Template">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
-  <meta property="og:description" content="A simple HTML5 Template for new projects.">
-  <meta property="og:image" content="image.png">
 
   <link rel="icon" href="/favicon.ico">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="styles.css">
 
 </head>
 <body>
+  <nav class="header-menu">
+
+<ul id="navlist">
+  <li id="logo">
+    <a href="#"></a>
+  </li>
+</ul>
+
+  <ul>
+<li><a href="#">Achievements</a></li>
+<li><a href="#">Partners</a></li>
+<li><a href="#">Sign Up</a></li>
+  </ul>
+  <button>Contact Us</button>
+  </nav>
+
+  <div class="body-nards">
+
 <!-- Chrissy Section No.3 Latest info or press report on achievements of the ngo -->
 
 <!-- Josh- Part 4 sign up form -->
-
+<div class="application">
 <form name="NGO Sign up" method="POST" data-netlify="true">
   <fieldset>
     <legend>
   <h1> Membership Application </h1>
 </legend>
-
-     <label><b> Name: </b><input type="text" name="name" for="Name" required /></label>
-   </p>
-   <p>
-     <label><b> Email: </b><input type="email" name="email" for="email" required/></label>
-   </p>
-  <label><b> Age: </b><input type="text" name="age" for="Age" required /></label>
-  <br/ >
- <p>
-   <label><b> Phone: </b><input type="text" name="telephone" for="Telephone" required /></label>
- </p>
-   <label><b>Address: </b><input type="address" name="address" for="address" /></label>
+     <label><b> Name: </b><input type="text" name="name" required /></label>
+     <label><b> Email: </b><input type="email" name="email" required/></label>
+     <label><b> Age: </b><input type="text" name="age" required /></label>
+     <label><b> Phone: </b><input type="text" name="telephone" required /></label>
+     <label><b>Address: </b><input type="text" name="address"></label>
 
    <br />
    <br />
    <b>Gender:</b>
    <input id="female" type="radio" name="gender" value="f">
-   <label for="gender">Female</label>
+   <label>Female</label>
    <input id="male" type="radio" name="gender" value="f">
-   <label for="male">Male</label>
+   <label>Male</label>
    <input id="non-binary" type="radio" name="gender" value="f">
-   <label for="non-binary">Non-Binary</label>
-   <input id="prefer not to say" type="radio" name="gender" value="f">
-   <label for="prefer not to say">Prefer Not to Say</label>
-   <br />
-   <br />
+   <label>Non-Binary</label>
+   <input id="prefer" type="radio" name="gender" value="f">
+   <label>Prefer Not to Say</label>
   <p> <b>Preferred Method of Contribution:</b>(You can select multiple donation methods by holding down control key on Mac or Pc and selecting different options.)</p>
    <select name="Contribution Type" size="8" multiple="multiple">
     <option value="New/Used Clothes" selected="selected">New/Used Clothing </option>
@@ -69,7 +73,6 @@
     <option value="Repairwork Materials" selected="selected">Repairwork Materials</option>
     <option value="Professional Services" selected="selected">Professional Services (I.e. Event planner, Marketing, Accounting) </option>
   </select>
-
    <br />
   <br />
   <label>
@@ -78,30 +81,26 @@
     <br />
   </label>
   <br />
-   <input type="submit" name="" value="Submit">
+  <button type="button" name="button">Submit</button>
  </fieldset>
+</div>
 
  <!-- Ethan-below is my part of the assignment(part 5)please code above this. -->
  <h1>Contact Us</h1>
   <p>
     <ul>
-     <li>   <a href="tel:+18684906253"target="blank">Call Us </a><br>
-
-     <li>   <a href="mailto:oabi@oabivoices."target="blank">Email Us</a><br>
-
-     <li>   <a href="https://api.whatsapp.com/send?phone=18687041962&app=facebook&entry_point=page_cta"target="blank">
-           Whatsapp </a><br>
-
-     <li>   <a href="https://www.facebook.com/OabiOrganization" target="blank">Facebook </a><br>
-
-     <li>   <a href="https://twitter.com/oabiorg"target="blank">Twitter </a>
-   </ul>
- </p>
+       <li><a href="tel:+18684906253"target="blank">Call Us </a><br>
+       <li><a href="mailto:oabi@oabivoices."target="blank">Email Us</a><br>
+       <li><a href="https://api.whatsapp.com/send?phone=18687041962&app=facebook&entry_point=page_cta"target="blank">Whatsapp </a><br>
+       <li><a href="https://www.facebook.com/OabiOrganization" target="blank">Facebook </a><br>
+       <li><a href="https://twitter.com/oabiorg"target="blank">Twitter </a>
+    </ul>
+  </p>
 
 
  <p><b>Find Us At</b></p>
  <p># 43 Bellesmythe Street, Curepe, Port of Spain Trinidad and Tobago</p>
-
+</div>
 
    <script src="js/scripts.js"></script>
  </body>
