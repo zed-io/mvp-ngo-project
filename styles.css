@@ -152,3 +152,29 @@ input[type="text"], textarea {
   background-color: #752492;
   transition: 0.3ms;
  }
+
+
+ .contact-us h2{
+  padding-top: 20px;
+
+ }
+
+ input[type="text"], textarea{
+   border-color: var( --purple);
+ }
+
+ input[type="textarea"], textarea{
+   border-color: var(--purple);
+
+}
+
+ #textboxid{
+   width: 450px;
+   height: 150px;
+   font-size: 14pt;
+ }
+
+.ad label{
+  display: block;
+  font-weight: bold;
+}
