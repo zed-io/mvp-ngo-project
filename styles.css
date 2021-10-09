@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Montserrat:wght@300;400;700&display=swap');
+
+:root {
+  --purple: #AF54D0;
+  --white: #fdfdfd;
+  --black: #333333;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  padding-top: 130px;
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+h1 {
+  font-family: 'Arvo', serif;
+}
+
+.emergency-header {
+  background-color: var(--black);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+}
+
+.emergency-header h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: var(--white);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 64px;
+  height: 81px;
+  background-color: var(--white);
+  top: 36px;
+  left: 0;
+  position: fixed !important;
+  z-index: 1000;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+
+#navlist {
+  position: relative;
+  padding: 0em;
+}
+
+#navlist li {
+  padding: 0;
+  list-style: none;
+  top: 0;
+}
+
+#navlist li, #navlist a {
+  height: 31px;
+  display: block;
+}
+
+
+#logo {
+  left: 0px;
+  width: 90px;
+  background: url('images/oabi-logo.png') 0 0;
+  padding-top: 25px;
+  background-size: 100%;
+  cursor: pointer;
+  transition: 0.2s ease;}
+
+.body {
+  padding-top: 116.45px;
+  padding-left: 64px;
+    padding-right: 64px;
+  }
+
+ .donations fieldset {
+    background-color: #FDFDFD;
+    text-decoration-color: #333333;
+    border-color: #AF54D0;
+   border-style: solid;
+   font-family: Montserrat;
+   padding: 17px 25px;
+   border-radius: 5px;
+  }
+
+  legend {
+    font-family: 'Arvo', serif;
+    color:var(--purple);
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .donations label{
+    font-weight: bold;
+    text-transform: uppercase;
+  flex-direction: row;
+  text-align: right;
+  width: 400px;
+  line-height: 36px;
+  margin-bottom: 20px;
+  }
+
+.donations-label{
+  display: block;
+  margin: 20px;
+}
+input[type="text"], textarea {
+  border-color : var(--purple);
+}
+  #contribution {
+    border: 2px solid #AF54D0;
+    padding: 15px;
+  }
+
+
+    button {
+      background-color: var(--purple);
+      color: var(--white);
+      padding: 10px 15px;
+      text-decoration: none;
+      border: none;
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-family: "montserrat", sans-serif;
+      border-radius: 5px;
+    }
+
+    .donations h4{
+      padding-top: 20px;
+    }
+
+ button:hover{
+  background-color: #752492;
+  transition: 0.3ms;
+ }
