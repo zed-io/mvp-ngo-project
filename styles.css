@@ -90,26 +90,14 @@ h1 {
     padding-right: 64px;
   }
 
-  fieldset {
-    align-items: left;
+ .donations fieldset {
     background-color: #FDFDFD;
     text-decoration-color: #333333;
     border-color: #AF54D0;
    border-style: solid;
    font-family: Montserrat;
-   padding: 35px;
-  }
-
-  legend {
-    font-family: Arvo;
-    color:#AF54D0;
-  fieldset {
-    align-items: left;
-    background-color: var(--white);
-    text-decoration-color: #333333;
-    border-color: var(--purple);
-   border-style: solid;
-   z-index: -1;
+   padding: 17px 25px;
+   border-radius: 5px;
   }
 
   legend {
@@ -117,8 +105,50 @@ h1 {
     color:var(--purple);
     font-weight: bold;
     font-size: 15px;
+    padding: 10px;
   }
 
+  .donations label{
+    font-weight: bold;
+    text-transform: uppercase;
+  flex-direction: row;
+  text-align: right;
+  width: 400px;
+  line-height: 36px;
+  margin-bottom: 20px;
+  }
+
+.donations-label{
+  display: block;
+  margin: 20px;
+}
+input[type="text"], textarea {
+  border-color : var(--purple);
+}
   #contribution {
     border: 2px solid #AF54D0;
-    padding: 15px;}
+    padding: 15px;
+  }
+
+
+    button {
+      background-color: var(--purple);
+      color: var(--white);
+      padding: 10px 15px;
+      text-decoration: none;
+      border: none;
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-family: "montserrat", sans-serif;
+      border-radius: 5px;
+    }
+
+    .donations h4{
+      padding-top: 20px;
+    }
+
+ button:hover{
+  background-color: #752492;
+  transition: 0.3ms;
+ }
