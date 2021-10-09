@@ -173,8 +173,3 @@ input[type="text"], textarea {
    height: 150px;
    font-size: 14pt;
  }
-
-.ad label{
-  display: block;
-  font-weight: bold;
-}
