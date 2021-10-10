@@ -154,6 +154,15 @@ input[type="text"], textarea {
  }
 
 
+.achievements-header{
+  color: #AF54D0;
+  font-size: 72px;
+}
+.dates{
+    color: #AF54D0;
+    font-size: 32px;
+}
+
  .contact-us h2{
   padding-top: 20px;
 
@@ -173,3 +182,4 @@ input[type="text"], textarea {
    height: 150px;
    font-size: 14pt;
  }
+
