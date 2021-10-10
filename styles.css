@@ -152,3 +152,8 @@ input[type="text"], textarea {
   background-color: #752492;
   transition: 0.3ms;
  }
+
+.achievements-header{
+  color: #AF54D0;
+  font-size: 72px;
+}
