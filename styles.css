@@ -189,5 +189,32 @@ input[type="text"], textarea {
 
  }
 
+.list1 li {
+  float: right;
+  clear: right;
+}
 
- 
+.list1 ul {
+  list-style: url("images/emailsprite.png");
+}
+
+
+.list2 li{
+  margin-top: 50px;
+  float: right;
+  clear: both;
+}
+
+.list2 ul{
+  list-style: url("images/callsprite.png")
+}
+
+.list3 li {
+  margin-top: 50px;
+  float: right;
+  clear: right;
+}
+
+.list3 ul{
+  list-style: url("images/facebooksprite.png");
+}
