@@ -154,7 +154,7 @@ input[type="text"], textarea {
  }
 
  .our-story-header{
-   color: #AF54D0;
+   color: var(--purple);
    font-size: 72px;
    text-align: center;
    margin-bottom: 20px;
