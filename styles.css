@@ -159,10 +159,19 @@ input[type="text"], textarea {
   font-size: 72px;
 }
 .dates{
+  float: left;
+  clear: both;
+  margin-left: 40px;
     color: #AF54D0;
     font-size: 32px;
 }
 
+
+}
+hr{
+  background-color: #AF54D0;
+   height: 5px;
+}
  .contact-us h2{
   padding-top: 20px;
 
