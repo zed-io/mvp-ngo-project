@@ -198,7 +198,43 @@ hr{
 }
 
  #textboxid{
-   width: 450px;
+   width: 350px;
    height: 150px;
-   font-size: 14pt;
+   font-size: 10pt;
  }
+
+ form dl{
+   display: inline-block;
+   vertical-align: top;
+
+ }
+
+.list1 li {
+  float: right;
+  clear: right;
+}
+
+.list1 ul {
+  list-style: url("images/emailsprite.png");
+}
+
+
+.list2 li{
+  margin-top: 2%;
+  float: right;
+  clear: both;
+}
+
+.list2 ul{
+  list-style: url("images/callsprite.png")
+}
+
+.list3 li {
+  margin-top: 2%;
+  float: right;
+  clear: right;
+}
+
+.list3 ul{
+  list-style: url("images/facebooksprite.png");
+}
