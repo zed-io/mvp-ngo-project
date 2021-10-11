@@ -187,9 +187,9 @@ hr{
 }
 
  #textboxid{
-   width: 450px;
+   width: 350px;
    height: 150px;
-   font-size: 14pt;
+   font-size: 10pt;
  }
 
  form dl{
@@ -209,7 +209,7 @@ hr{
 
 
 .list2 li{
-  margin-top: 50px;
+  margin-top: 2%;
   float: right;
   clear: both;
 }
@@ -219,7 +219,7 @@ hr{
 }
 
 .list3 li {
-  margin-top: 50px;
+  margin-top: 2%;
   float: right;
   clear: right;
 }
