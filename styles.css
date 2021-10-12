@@ -160,8 +160,8 @@ input[type="text"], textarea {
    margin-bottom: 20px;
    margin-top: 30px;
  }
- .our-story{
-   text-align:center;
+ .our-story p{
+   text-align: center;
  }
 
 .achievements-header{
