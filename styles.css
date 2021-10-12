@@ -154,65 +154,52 @@ input[type="text"], textarea {
  }
 
  .container{
-   background-color: var(--purple);
-   font: var(--white);
+     margin: 24px 0px;
  }
 
- .container h1{
-   font-size: 32px;
- }
+ .container-who {
 
- .container2{
-   background-color: var(--white);
-   font: var(--purple);
- }
-
- .container2 h1{
-   font-size: 32px
-
-}
-.container3 p{
-  text-align: center;
-  font: var(--black);
-}
-
-.container3 h1{
-   font: var(--purple);
-    text-align: center;
  }
 
 .line{
   border-bottom: 5px solid var(--purple);
   display: block;
 }
-  )
+
  .our-story-header{
    color: var(--purple);
    font-size: 72px;
    text-align: center;
    margin-bottom: 20px;
    margin-top: 30px;
+   font-family: "Arvo", serif;
  }
  .our-story p{
    text-align: center;
-    line-height: 1.5em;
+    line-height: 2em;
  }
 
 
 
 
 .achievements-header{
-  margin-top: 30px;
+  margin-top: 45px;
   margin-bottom: 10px;
   color: #AF54D0;
   font-size: 72px;
+  font-family: "Arvo", serif;
 }
+
 .dates{
-  float: left;
-  clear: both;
-  margin-left: 40px;
+  padding: 0px 10px 0px 30px;
     color: #AF54D0;
     font-size: 32px;
+    font-weight: bold;
+    font-family: "Arvo", serif;
+}
+
+.achievements-container {
+    margin: 33px 0px;
 }
 
 
@@ -274,4 +261,20 @@ hr{
 
 .list3 ul{
   list-style: url("images/facebooksprite.png");
+}
+
+.partners {
+    margin: 24px 0px;
+}
+
+.partner-container {
+    margin: 24px 0px;
+}
+
+.partners h2, h3{
+font-family: "Arvo", serif;
+}
+
+.partners h2 {
+    margin: 24px 0px;
 }
