@@ -153,16 +153,53 @@ input[type="text"], textarea {
   transition: 0.3ms;
  }
 
+ .container{
+   background-color: var(--purple);
+   font: var(--white);
+ }
+
+ .container h1{
+   font-size: 32px;
+ }
+
+ .container2{
+   background-color: var(--white);
+   font: var(--purple);
+ }
+
+ .container2 h1{
+   font-size: 32px
+
+}
+.container3 p{
+  text-align: center;
+  font: var(--black);
+}
+
+.container3 h1{
+   font: var(--purple);
+    text-align: center;
+ }
+
+.line{
+  border-bottom: 5px solid var(--purple);
+  display: block;
+}
+  )
  .our-story-header{
-   color: #AF54D0;
+   color: var(--purple);
    font-size: 72px;
    text-align: center;
    margin-bottom: 20px;
    margin-top: 30px;
  }
- .our-story{
-   text-align:center;
+ .our-story p{
+   text-align: center;
+    line-height: 1.5em;
  }
+
+
+
 
 .achievements-header{
   margin-top: 30px;
