@@ -170,7 +170,17 @@ input[type="text"], textarea {
  .container2 h1{
    font-size: 32px
 
-.container3 
+}
+.container3 p{
+  text-align: center;
+  font: var(--black);
+}
+
+.container3 h1{
+   font: var(--purple);
+    text-align: center;
+ }
+
 
  .our-story-header{
    color: var(--purple);
