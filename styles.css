@@ -181,7 +181,11 @@ input[type="text"], textarea {
     text-align: center;
  }
 
-
+.line{
+  border-bottom: 5px solid var(--purple);
+  display: block;
+}
+  )
  .our-story-header{
    color: var(--purple);
    font-size: 72px;
