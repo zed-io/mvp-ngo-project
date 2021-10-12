@@ -180,11 +180,11 @@ h1 {
   color: #fdfdfd;
   background-color: var(--purple);
   padding: 50px 60px;
-
   width: 100%;
 
 }
 .container-vision {
+
   color: var(--purple);
   padding: 50px 60px;
 }
@@ -193,14 +193,17 @@ h1 {
   color: #fdfdfd;
   background-color: var(--purple);
   padding: 50px 60px;
-
   width: 100%;
 }
 
-.container-mission{
-  color: var(--purple);
+.container-mission {
   padding: 50px 60px;
+  color: var(--purple)
+
 }
+
+
+
 
   .donations label{
     font-weight: bold;
