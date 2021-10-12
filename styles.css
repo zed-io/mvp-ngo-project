@@ -153,6 +153,25 @@ input[type="text"], textarea {
   transition: 0.3ms;
  }
 
+ .container{
+   background-color: var(--purple);
+   font: var(--white);
+ }
+
+ .container h1{
+   font-size: 32px;
+ }
+
+ .container2{
+   background-color: var(--white);
+   font: var(--purple);
+ }
+
+ .container2 h1{
+   font-size: 32px
+
+.container3 
+
  .our-story-header{
    color: var(--purple);
    font-size: 72px;
@@ -165,14 +184,7 @@ input[type="text"], textarea {
     line-height: 1.5em;
  }
 
-.container{
-  background-color: var(--purple);
-  font: var(--white);
-}
 
-.container h1{
-  font-size: 32px
-}
 
 
 .achievements-header{
