@@ -195,14 +195,11 @@ color: var(--purple)
   width: 100%;
 }
 
-.container-mission h1 {
-  color: var(--purple)
 
-
-}
 
 .container-mission {
   padding: 50px 60px;
+  color: var(--purple)
 
 }
 
