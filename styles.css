@@ -162,6 +162,7 @@ input[type="text"], textarea {
  }
  .our-story p{
    text-align: center;
+    line-height: 1.5em;
  }
 
 .achievements-header{
