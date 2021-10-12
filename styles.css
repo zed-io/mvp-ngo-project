@@ -31,6 +31,8 @@ h1 {
   font-size: 72px;
   font-family: "Arvo", serif;
   padding: 50px 60px;
+  
+  width: 100%;
 
 }
 .help-number{
@@ -133,6 +135,10 @@ h1 {
     padding: 10px;
   }
 
+  .container-about-us {
+    line-height: 40px;
+  }
+
   .donations label{
     font-weight: bold;
     text-transform: uppercase;
@@ -143,9 +149,8 @@ h1 {
   margin-bottom: 20px;
   }
 
-.donations-label{
+.donation-label{
   display: block;
-  margin: 20px;
 }
 input[type="text"], textarea {
   border-color : var(--purple);
@@ -182,9 +187,6 @@ input[type="text"], textarea {
      margin: 24px 0px;
  }
 
- .container-who {
-
- }
 
 .line{
   border-bottom: 5px solid var(--purple);
@@ -198,6 +200,7 @@ input[type="text"], textarea {
    margin-bottom: 20px;
    margin-top: 30px;
    font-family: "Arvo", serif;
+   width: 100%;
  }
  .our-story p{
    text-align: center;
@@ -205,7 +208,9 @@ input[type="text"], textarea {
  }
 
 
-
+.achievements {
+  line-height: 40px;
+}
 
 .achievements-header{
   margin-top: 45px;
