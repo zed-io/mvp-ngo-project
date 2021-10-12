@@ -15,9 +15,10 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
-  padding-top: 130px;
+  padding-top: 118px;
   padding-left: 64px;
   padding-right: 64px;
+  padding-bottom: 64px;
 }
 
 h1 {
@@ -159,7 +160,6 @@ h1 {
     text-decoration-color: #333333;
     border-color: #AF54D0;
    border-style: solid;
-   font-family: Montserrat;
    padding: 17px 25px;
    border-radius: 5px;
   }
@@ -185,7 +185,8 @@ h1 {
 
 }
 .container-vision {
-  color: var(--purple)
+  color: var(--purple);
+  padding: 50px 60px;
 }
 
 .container-values {
@@ -196,14 +197,10 @@ h1 {
   width: 100%;
 }
 
-.container-mission h1 {
-  color: var(--purple)
+.container-mission{
+  color: var(--purple);
+  padding: 50px 60px;
 }
-
-
-
-
-
 
   .donations label{
     font-weight: bold;
@@ -263,14 +260,30 @@ input[type="text"], textarea {
    color: var(--purple);
    font-size: 72px;
    text-align: center;
-   margin-bottom: 20px;
-   margin-top: 30px;
+   margin-bottom: 50px;
    font-family: "Arvo", serif;
    width: 100%;
  }
+
+.our-story-container {
+  padding: 80px 0px;
+}
+
  .our-story p{
    text-align: center;
-    line-height: 2em;
+    line-height: 40px;
+ }
+.services-container h2 {
+  font-family: "Arvo", serif;
+  padding-top: 24px;
+}
+
+ .services {
+   padding: 30px 20px;
+ }
+
+ .services-container li {
+   padding-left: 0;
  }
 
 
