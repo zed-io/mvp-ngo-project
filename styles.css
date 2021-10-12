@@ -143,27 +143,31 @@ h1 {
   color: #fdfdfd;
   background-color: var(--purple);
   padding: 50px 60px;
-
   width: 100%;
 
 }
 .container-vision {
-  color: var(--purple)
+padding: 50px 60px;
+color: var(--purple)
 }
 
 .container-values {
   color: #fdfdfd;
   background-color: var(--purple);
   padding: 50px 60px;
-
   width: 100%;
 }
 
 .container-mission h1 {
   color: var(--purple)
+
+
 }
 
+.container-mission {
+  padding: 50px 60px;
 
+}
 
 
 
